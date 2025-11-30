@@ -67,6 +67,16 @@ body {
   background-color: var(--image-br);
 }
 
+.mode-switcher {
+  background: none;
+  border: none;
+  color: var(--text);
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px;
+  margin-left: auto;
+}
+
 main {
   display: flex;
   align-items: flex-start;
@@ -140,9 +150,10 @@ main {
   background: linear-gradient(90deg, #fa709a 0%, #fee140 100%);
 }
 
-.sidebar img {
+.logo {
   margin-left: -35%;
   margin-bottom: 40px;
+  fill: var(--text);
 }
 
 .right__side {

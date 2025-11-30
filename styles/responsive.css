@@ -30,7 +30,7 @@
     padding-bottom: 80px;
   }
 
-  .sidebar > img {
+  .logo {
     position: absolute;
     bottom: 10px;
     right: 10px;
@@ -57,6 +57,16 @@
   .skills-circles {
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  .header {
+    position: relative;
+  }
+
+  .mode-switcher {
+    position: fixed;
+    top: 5%;
+    right: 0;
   }
 }
 
