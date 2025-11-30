@@ -1,0 +1,13 @@
+:root {
+  --bg: rgba(255, 255, 255, 1);
+  --image-br: rgba(41, 41, 41, 1);
+  --border: rgba(159, 159, 159, 1);
+  --text : rgba(41, 41, 41, 1)
+}
+
+body.dark {
+  --bg: rgba(41, 41, 41, 1);
+  --image-br: rgba(255, 255, 255, 1);
+  --border: rgba(255, 255, 255, 1);
+  --text: rgba(255, 255, 255, 1)
+}
