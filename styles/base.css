@@ -1,22 +1,15 @@
-/* -----------------------------------
-   Base Reset + Global Styles
------------------------------------ */
-
-/* 1) Reset default browser styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* 2) Smooth fonts */
 html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
 }
 
-/* 3) Body base styles */
 body {
   font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
   line-height: 1.5;
@@ -24,30 +17,29 @@ body {
   color: var(--text);
 }
 
-/* 4) Remove list bullets */
-ul, ol {
+ul,
+ol {
   list-style: none;
 }
 
-/* 5) Remove link underline + inherit color */
 a {
   text-decoration: none;
   color: inherit;
 }
 
-/* 6) Images responsive */
 img {
   max-width: 100%;
   height: auto;
   display: block;
 }
 
-/* 7) Strong text more bold */
 strong {
   font-weight: 600;
 }
 
-/* 8) Smooth transitions for theme switching */
-body, .cv-wrapper, .section-title, .sidebar {
+body,
+.cv-wrapper,
+.section-title,
+.sidebar {
   transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease;
 }

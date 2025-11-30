@@ -155,7 +155,6 @@ main {
   padding: 20px;
   box-sizing: border-box;
   position: relative;
-  /* აქაა მტავარი გეპი მარჯვენა სექციის */
 }
 .profile {
   width: 100%;
@@ -293,6 +292,6 @@ main {
   color: #fa709a !important;
 }
 
-.work__info:hover::before{
+.work__info:hover::before {
   background-color: #fa709a;
 }
